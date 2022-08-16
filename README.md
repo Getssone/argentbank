@@ -1,6 +1,61 @@
-# Getting Started with Create React App
+#Project 13 "Front End Developer" 
+
+#Argent Bank. 
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Technologies
+- JS
+- HTML
+- CSS 
+- React
+- Redux
+- Swagger
+
+## Author
+[Solis Gaetan](https://github.com/Getssone)
+
+## Prerequisites
+
+Using the Server API [Argent Bank API](https://github.com/OpenClassrooms-Student-Center/Project-10-Bank-API#design-assets)
+
+## Installation
+
+
+
+### 1 API
+- Fork the repository (with API branch)(https://github.com/OpenClassrooms-Student-Center/Project-10-Bank-API#design-assets)
+- Clone it on your computer.
+- Open the folder.
+- The `yarn` command will allow you to install the dependencies.
+- The `yarn dev` command will allow you to run the micro API.
+- port : http://localhost:3001/
+- port doc : http://localhost:3001/api-docs
+
+### 2 Application
+- Fork the repository (master branch)(https://github.com/Getssone/argentbank)
+- Clone it on your computer.
+- Open the folder.
+- The `yarn` command will allow you to install the dependencies.
+- The `yarn start` `yarn dev` command will allow you to run the micro API.
+- port http://localhost:3000/
+
+## Populated Database Data
+You should have two users in your database:
+
+### Tony Stark
+First Name: Tony
+Last Name: Stark
+Email: tony@stark.com
+Password: password123
+### Steve Rogers
+First Name: Steve,
+Last Name: Rogers,
+Email: steve@rogers.com,
+Password: password456
+
+
 
 ## Available Scripts
 
