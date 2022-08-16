@@ -45,15 +45,15 @@ Using the Server API [Argent Bank API](https://github.com/OpenClassrooms-Student
 You should have two users in your database:
 
 ### Tony Stark
-First Name: Tony
-Last Name: Stark
-Email: tony@stark.com
-Password: password123
+First Name: Tony.
+Last Name: Stark.
+Email: tony@stark.com.
+Password: password123.
 ### Steve Rogers
-First Name: Steve,
-Last Name: Rogers,
-Email: steve@rogers.com,
-Password: password456
+First Name: Steve.
+Last Name: Rogers.
+Email: steve@rogers.com.
+Password: password456.
 
 
 
