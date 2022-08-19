@@ -1,17 +1,23 @@
 import {Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import logo from "../../../assets/argentBankLogo.png";
-import { logout } from "../../../utils/getApi"
-
+import { logout} from "../../../utils/getApi"
 
 const Header = () => {
+  
+  // //check if token exist in local storage
   const dispatch = useDispatch();
+
+ 
+
+  
 //Récupere dans le store: getUser.isLogged
   const selectLogin = (state) => state.getUser.isLogged;
   const login = useSelector(selectLogin);
 //Récupere dans le store: getUser.user
   const selectUser = (state) => state.getUser.user.body;
   const user = useSelector(selectUser);
+  
 
   return (
     <nav className="main-nav">

@@ -6,9 +6,20 @@ import Login from "../pages/Login/Login";
 import Profile from "../pages/Profile/Profile";
 import Error from "../pages/Error/Error";
 import "../App/App.css";
-
+import { getUser } from "../../utils/getApi";
+import { loadTokenSuccess } from "../../Redux/actions/getToken";
+import { useDispatch } from "react-redux"; 
 
 export default function App() {
+
+  const dispatch = useDispatch();
+  const token = localStorage.getItem("token")
+
+  if (token) {
+  dispatch(loadTokenSuccess(token));
+  dispatch(getUser(token));
+  }
+
   return (
     <>
       <Header />
